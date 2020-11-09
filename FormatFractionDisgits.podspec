@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'This project will format fraction digits'
                        DESC
 
-  s.homepage         = 'https://github.com/sandyambarita/FormatFractionDisgits'
+  s.homepage         = 'https://github.com/sandyambarita/FormatDecimalFraction'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sandyambarita' => 'sandyambarita@gmail.com' }
