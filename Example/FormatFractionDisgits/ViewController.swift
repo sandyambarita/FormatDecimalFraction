@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import FormatFractionDisgits
 
 class ViewController: UIViewController {
-
+    var wealth: Double = 10.1234
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print(wealth.decimalFormatClean(fractionDigits: 2))
     }
 
     override func didReceiveMemoryWarning() {

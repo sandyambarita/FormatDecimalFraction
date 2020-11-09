@@ -1,0 +1,6 @@
+framework module FormatFractionDisgits {
+  umbrella header "FormatFractionDisgits-umbrella.h"
+
+  export *
+  module * { export * }
+}
