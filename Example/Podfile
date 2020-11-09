@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FormatFractionDisgits_Example' do
+  pod 'FormatFractionDisgits', :path => '../'
+
+  target 'FormatFractionDisgits_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
