@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FormatFractionDisgits/Classes/*.swift'
+  s.source_files = 'FormatFractionDisgits/Classes/*'
   
   # s.resource_bundles = {
   #   'FormatFractionDisgits' => ['FormatFractionDisgits/Assets/*.png']

@@ -7,7 +7,7 @@
 import Foundation
 
 extension Double {
-    func decimalFormatClean(fractionDigits: Int) -> String {
+    public func decimalFormatClean(fractionDigits: Int) -> String {
         let formatter = NumberFormatter()
         formatter.minimumFractionDigits = 0
         formatter.maximumFractionDigits = fractionDigits

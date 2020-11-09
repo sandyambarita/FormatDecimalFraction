@@ -27,6 +27,7 @@
 		98605B5B7E0E3388035C9F94DAE0DC56 /* Pods-FormatFractionDisgits_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE436EB56B5376EC4244949F9BF42E2 /* Pods-FormatFractionDisgits_Tests-dummy.m */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		A65D251925597ECD00BF9FE3 /* FormatFractionDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DFDF2325597644000B357C /* FormatFractionDigits.swift */; };
 		A6DFDF2425597644000B357C /* FormatFractionDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DFDF2325597644000B357C /* FormatFractionDigits.swift */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
@@ -564,6 +565,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65D251925597ECD00BF9FE3 /* FormatFractionDigits.swift in Sources */,
 				CD7C1DDB4025D9D7D5A845C6E383BA0B /* FormatFractionDisgits-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
