@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FormatFractionDisgits'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FormatFractionDisgits.'
+  s.summary          = 'This project will format fraction digits'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This project will format fraction digits'
                        DESC
 
   s.homepage         = 'https://github.com/sandyambarita/FormatFractionDisgits'
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FormatFractionDisgits/Classes/*'
+  s.swift_version = '4.0'
   
   # s.resource_bundles = {
   #   'FormatFractionDisgits' => ['FormatFractionDisgits/Assets/*.png']
